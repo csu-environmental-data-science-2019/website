@@ -72,6 +72,8 @@ immersive approach will help in the short and long run. This is primarilyy a cod
 and any statistical work we do will be guided by you, not me. Later if you
 take a stats class, hopefully the coding part will be a breeze!
 
+## Inclusive classroom
+
 To encourage this embedded approach, we will have an inclusive classroom: 
 respecting and valuing the diverse backgrounds, perspectives, and identities
 of individuals in the class. Students are expected to have an awareness of and
@@ -92,6 +94,8 @@ community, but it is also a good general principle to keep in mind. "What work
 can I do to prepare my question in a way that makes it easiest for someone to 
 help me?" I want you to ask questions and work collaboratively and do so in a way
 that helps you and everyone else.
+
+## Flipped class
 
 Finally, the majority of the class will be "flipped," with lectures delivered
 online before class and class time devoted to coding. Learning to code requires
