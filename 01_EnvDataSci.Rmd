@@ -26,8 +26,8 @@ syllabus for Data Issues in Hydrology (WR674) taught at Colorado State Universit
 The broadest goal for this course is to make analysis easier and more intuitive
 for you. In my experience, code fluency can dramatically increase the efficiency
 of your work and significantly add to the the amount
-of time you enjoy working whether it be graduate school, post-doc, government
-work, or really anything else. Further, it's a versatile skill that is transferable
+of time you enjoy working whether it be in graduate school, post-doc, government
+work, or really anything else. Further, coding is a versatile skill that is transferable
 across languages and problems.
 
 Specifically in this course you will learn:
@@ -42,7 +42,7 @@ and the [tidyverse](https://www.tidyverse.org/)
 - How to collaboratively code in an open and reproducible framework 
 using [Git](https://git-scm.com/) and [GitHub](https://github.com/)
 
-- How to quickly, and efficiently organize, clean, and visualize complex 
+- How to quickly and efficiently organize, clean, and visualize complex 
 environmental datasets using tidydata principles
 
 - How to pull down publicly available datasets within R (no more pointing
