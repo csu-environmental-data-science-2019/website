@@ -26,7 +26,7 @@ syllabus for Data Issues in Hydrology (WR674) taught at Colorado State Universit
 The broadest goal for this course is to make analysis easier and more intuitive
 for you. In my experience, code fluency can dramatically increase the efficiency
 of your work and significantly add to the the amount
-of time you enjoy working whether it be in graduate school, post-doc, government
+of time you enjoy working whether it be in graduate school, as a post-doc, in government
 work, or really anything else. Further, coding is a versatile skill that is transferable
 across languages and problems.
 
@@ -53,8 +53,8 @@ and clicking on the interwebs)
 - How to create interactive visualizations using html and JavaScript libraries
 
 - Finally, you will be doing all of this work with your own data and/or
-data that is similar to your core datasets. Ideally the final for this project
-will be an analysis that goes in your undergrad, masters, or PhD thesis. 
+data that is similar to your core datasets. Ideally, the final for this project
+will be an analysis that goes into your undergrad, masters, or PhD thesis. 
 
 
 
@@ -65,10 +65,10 @@ Programming languages are just that, languages. As such, the best way to learn R
 or any language is to fully commit to the language and do everything you can
 to see it most days of the week for at least half an hour (ideally more). This
 can be as easy as trying to write all your homeworks for other classes in R and/or
-RMarkdown or as committed as only writing everything in R: emails, your personal 
-website, shopping lists, etc... The idea here is immersion, into the language, 
-ways of asking for help, the community, and more! I promise this immersive 
-approach will help in the short and long run. This is primary a coding class
+RMarkdown. Or, it can be as committed as writing everything exclusively in R: 
+emails, your personal website, shopping lists, etc... The idea here is immersion 
+into the language, ways of asking for help, the community, and more! I promise this
+immersive approach will help in the short and long run. This is primarilyy a coding class,
 and any statistical work we do will be guided by you, not me. Later if you
 take a stats class, hopefully the coding part will be a breeze!
 
@@ -78,28 +78,29 @@ of individuals in the class. Students are expected to have an awareness of and
 sensitivity to language or actions that may be exclusionary or alienating. I 
 am committed to fostering a collaborative and inclusive class and appreciate
 any feedback on how to improve my own practice.  
+
 This is particularly important in a class that will have group work,
-peer grading, and a large range in R fluency. We all get better if we work 
-together! Some of the best R training available come from groups with explicit
-inclusivity goals and I think that is what makes this language and community 
-great. I encourage you to check out [RLadies](https://rladies.org/about-us/).
-A final note on treatment of others, one of the most important things when 
+peer grading, and generally serve individuals with a large range in R fluency. 
+We all get better if we work together. Some of the best R training available comes
+from groups with explicit inclusivity goals, and I think that is what makes this 
+language and community great. I encourage you to check out [RLadies](https://rladies.org/about-us/).
+A final note on treatment of others: one of the most important things when 
 interacting with others who have more or less coding experience than you is to
 learn how to ask effective questions that show you understand and value 
 other people's time. We will learn explicitly how to do this in the R 
-community, but it is also a good general principal to keep in mind: what work
+community, but it is also a good general principle to keep in mind. "What work
 can I do to prepare my question in a way that makes it easiest for someone to 
-help me? I want you to ask questions and work collaboratively and do so in a way
-that helps you and everyone else!
+help me?" I want you to ask questions and work collaboratively and do so in a way
+that helps you and everyone else.
 
-Finally the majority of the class will be "flipped," with lectures delivered
+Finally, the majority of the class will be "flipped," with lectures delivered
 online before class and class time devoted to coding. Learning to code requires
 coding and we will try to spend the majority of class time doing assignments,
 group work, and live coding problem sets. Before class you will be expected to 
-watch short lectures on YouTube that will be posted at least 4 days before class,
-these videos will generally be less than 20 minutes and geared directly towards
+watch short lectures on YouTube that will be posted at least 4 days before class.
+These videos will generally be less than 20 minutes and geared directly towards
 the material we will work on in class. It is vital that you do this work before
-class and I will think of ways to check if needed (I hope not in a grad class!)
+class and I will think of ways to check if needed (I hope not in a grad class).
 
 ## Assignments
 
@@ -108,23 +109,23 @@ All assignments will be distributed through GitHub
 ## Asking for help and code on the internet:
 
 One of the most common ways people learn to code is to use the age-old 
-(maybe 10 years) technique of asking the internet for help. This is a great idea!
+(okay, maybe 10 years) technique of asking the internet for help. This is a great idea!
 But! When you do you should ask for help in specific ways that enable people
 to answer your question more easily and clearly. Great instructions are here: 
 https://blog.revolutionanalytics.com/2014/01/how-to-ask-for-r-help.html
-and a more general guide to hlep in R is here:
+and a more general guide to help in R is here:
 https://www.r-project.org/help.html.
 
 ### Using other people's code
 
-Inevitably you will want to perform a task in R that someone else has already 
+Inevitably, you will want to perform a task in R that someone else has already 
 done. This is useful and part of why the R community is so great. But! If 
 you use other people's code, you should:
 
   a) explitly cite where you got the code or the inspiration for it
   
   b) work hard to understand the code and what it does, break it down into 
-  pieces and try to rebuild it 
+  pieces, and try to rebuild it 
   
 Code that you did not write and is not cited will be treated as academic 
 plagiarism. Assignments will vary in how much code is allowed to be shared 
@@ -160,7 +161,7 @@ kable(grading)
 
 This schedule will likely change considerably as we move through the course,
 but I will keep it updated. Every Thursday there will be an assignment due the
-next Friday, unless otherwise stated.
+next Friday (of the following week), unless otherwise stated.
 
 ```{r, echo=F}
 
