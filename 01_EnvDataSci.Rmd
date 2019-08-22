@@ -3,7 +3,8 @@ title: "WR-674 Data Issues in Hydrology (but really environmental science genera
 author:
 - "Dr. Matthew Ross"
 - 'matt.ross(at)colostate.edu'
-- 'Office Hours: W,F 10:00-11:00 AM'
+- 'Class: M, Th 11-12:15 @ NR 250'
+- 'Office Hours: W,F 10:00-11:00 AM @ NESB B258'
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 site: bookdown::bookdown_site
 documentclass: book
@@ -68,7 +69,7 @@ can be as easy as trying to write all your homeworks for other classes in R and/
 RMarkdown. Or, it can be as committed as writing everything exclusively in R: 
 emails, your personal website, shopping lists, etc... The idea here is immersion 
 into the language, ways of asking for help, the community, and more! I promise this
-immersive approach will help in the short and long run. This is primarilyy a coding class,
+immersive approach will help in the short and long run. This is primarily a coding class,
 and any statistical work we do will be guided by you, not me. Later if you
 take a stats class, hopefully the coding part will be a breeze!
 
