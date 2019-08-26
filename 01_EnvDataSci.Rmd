@@ -3,7 +3,7 @@ title: "WR-674 Data Issues in Hydrology (but really environmental science genera
 author:
 - "Dr. Matthew Ross"
 - 'matt.ross(at)colostate.edu'
-- 'Class: M, Th 11-12:15 @ NR 250'
+- 'Class: T,Th 11-12:15 @ NR 250'
 - 'Office Hours: W,F 10:00-11:00 AM @ NESB B258'
 date: '`r format(Sys.Date(), "%B %d, %Y")`'
 site: bookdown::bookdown_site
@@ -11,6 +11,8 @@ documentclass: book
 output:
   bookdown::gitbook: default
   #bookdown::pdf_book: default
+editor_options: 
+  chunk_output_type: console
 ---
 
 # (PART) Syllabus {-}
@@ -215,18 +217,27 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://rstudio.cloud/learn/primers/2') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
+video_urls <- c('https://youtu.be/RN33nzDrWgA') %>%
+  c(.,rep(NA,length(dates)-length(.)))
 
 pre_work <- c('Viz and Programming Primers',
               'Happy Git With R',
               'Working with Data Primer') %>%
   c(.,rep('',length(dates)-length(.)))
 
+pre_videos <- c('Installing R and Rstudio') %>%
+  c(.,rep('',length(dates)-length(.)))
+
 
 schedule <- tibble(`Week`=rep(1:16,each=2),
                    Date = dates,
                    Content=content,
-                   `Work Before Class` = pre_work) %>%
-    mutate(`Work Before Class` = cell_spec(`Work Before Class`, "html", link = urls)) 
+                   `Work Before Class` = pre_work,
+                   `Lectures Before Class` = pre_videos) %>%
+    mutate(`Work Before Class` = cell_spec(`Work Before Class`,
+                                           "html", link = urls),
+           `Lectures Before Class` = cell_spec(`Lectures Before Class`,
+                                               'html',link=video_urls)) 
 
                            
 
