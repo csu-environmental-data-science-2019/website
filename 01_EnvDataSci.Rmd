@@ -217,16 +217,19 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://rstudio.cloud/learn/primers/2') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
-video_urls <- c('https://youtu.be/RN33nzDrWgA') %>%
-  c(.,rep(NA,length(dates)-length(.)))
 
 pre_work <- c('Viz and Programming Primers',
               'Happy Git With R',
               'Working with Data Primer') %>%
   c(.,rep('',length(dates)-length(.)))
 
-pre_videos <- c('Installing R and Rstudio') %>%
+pre_videos <- c('Installing R and RStudio',
+                'Connecting Git, GitHub, & RStudio') %>%
   c(.,rep('',length(dates)-length(.)))
+
+video_urls <- c('https://youtu.be/RN33nzDrWgA',
+                'https://youtu.be/Y4sOTFV3FAM') %>%
+  c(.,rep(NA,length(dates)-length(.)))
 
 
 schedule <- tibble(`Week`=rep(1:16,each=2),
