@@ -75,7 +75,9 @@ immersive approach will help in the short and long run. This is primarily a codi
 and any statistical work we do will be guided by you, not me. Later if you
 take a stats class, hopefully the coding part will be a breeze!
 
-## Inclusive classroom
+## Class policies
+
+### Inclusive classroom
 
 To encourage this embedded approach, we will have an inclusive classroom: 
 respecting and valuing the diverse backgrounds, perspectives, and identities
@@ -98,7 +100,7 @@ can I do to prepare my question in a way that makes it easiest for someone to
 help me?" I want you to ask questions and work collaboratively and do so in a way
 that helps you and everyone else.
 
-## Flipped class
+### Flipped class
 
 Finally, the majority of the class will be "flipped," with lectures delivered
 online before class and class time devoted to coding. Learning to code requires
@@ -109,11 +111,11 @@ These videos will generally be less than 20 minutes and geared directly towards
 the material we will work on in class. It is vital that you do this work before
 class and I will think of ways to check if needed (I hope not in a grad class).
 
-## Assignments
+### Assignments
 
 All assignments will be distributed through GitHub
 
-## Asking for help and code on the internet:
+### Asking for help and code on the internet:
 
 One of the most common ways people learn to code is to use the age-old 
 (okay, maybe 10 years) technique of asking the internet for help. This is a great idea!
@@ -141,6 +143,13 @@ code or code from your own team. As an example of best practices, a lot of the
 inspiration for this page (and the class in general) comes from Mine Cetikaya-Rundel
 and her amazing [STA 199](http://www2.stat.duke.edu/courses/Spring18/Sta199/policies/) 
 course at Duke
+
+## Academic integrity
+
+Academic integrity: You are responsible for adhering to all university policies on academic
+integrity and student conduct https://tilt.colostate.edu/integrity/knowTheCode/. TILT
+has a number of resources for students related to writing and study skills:
+https://tilt.colostate.edu/integrity/resourcesStudents/.
 
 ## Attendance
 
@@ -251,9 +260,3 @@ kable(schedule,escape=F) %>%
   column_spec(3,width='15em')
 ```
 
-## Academic integrity
-
-Academic integrity: You are responsible for adhering to all university policies on academic
-integrity and student conduct https://tilt.colostate.edu/integrity/knowTheCode/. TILT
-has a number of resources for students related to writing and study skills:
-https://tilt.colostate.edu/integrity/resourcesStudents/.
