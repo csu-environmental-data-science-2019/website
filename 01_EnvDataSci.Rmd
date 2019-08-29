@@ -192,14 +192,14 @@ content = c('R, RStudio, Packages, Data Types, and Functions',
             'Projects, Organization, Git, GitHub',
             'Manipulating Data',
             'Tidying Data and asking for help',
+            'Generating Dynamic Reports',
+            'Writing Papers in Rmarkdown (w/ Latex)',
             'Spatial Data in R (Simple Features)',
             'Spatial Data in R (Rasters)',
             'Visualizing Data (static)',
             'Visualizing Data (dynamic)',
             'Writing functions',
             'Iterating, nesting, purrring',
-            'Generating Dynamic Reports',
-            'Writing Papers in Rmarkdown (w/ Latex)',
             'Real data analysis example 1',
             'Real data analysis example 1',
             'Dynamic data retrieval',
@@ -233,11 +233,13 @@ pre_work <- c('Viz and Programming Primers',
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
-                'Connecting Git, GitHub, & RStudio') %>%
+                'Connecting Git, GitHub, & RStudio',
+                'Data manipulation in a script') %>%
   c(.,rep('',length(dates)-length(.)))
 
 video_urls <- c('https://youtu.be/RN33nzDrWgA',
-                'https://youtu.be/Y4sOTFV3FAM') %>%
+                'https://youtu.be/Y4sOTFV3FAM',
+                'https://youtu.be/Y_Xn8GkDOMw') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
