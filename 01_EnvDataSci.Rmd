@@ -243,6 +243,18 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
   c(.,rep(NA,length(dates)-length(.)))
 
 
+script_urls <- c(NA,NA,'https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace') %>%
+  c(.,rep(NA,length(dates)-length(.)))
+
+script <- c('','','Hayman') %>%
+  c(.,rep('',length(dates)-length(.)))
+
+data_urls <- c(NA,NA,'https://drive.google.com/file/d/1q9kdnOdnEvZiQS-_lK0yIVJWw_EprGiN/view?usp=sharing') %>%
+  c(.,rep(NA,length(dates)-length(.)))
+
+data <-  c('','','NDVI') %>%
+  c(.,rep('',length(dates)-length(.)))
+
 schedule <- tibble(`Week`=rep(1:16,each=2),
                    Date = dates,
                    Content=content,
@@ -251,7 +263,9 @@ schedule <- tibble(`Week`=rep(1:16,each=2),
     mutate(`Work Before Class` = cell_spec(`Work Before Class`,
                                            "html", link = urls),
            `Lectures Before Class` = cell_spec(`Lectures Before Class`,
-                                               'html',link=video_urls)) 
+                                               'html',link=video_urls),
+           Scripts = cell_spec(script,'html',link=script_urls),
+           Data=cell_spec(data,'html',link=data_urls))
 
                            
 
