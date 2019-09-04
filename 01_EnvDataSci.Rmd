@@ -191,8 +191,8 @@ dates <- seq(ymd('2019-08-27'),ymd('2019-12-13'),by=7) %>%
 content = c('R, RStudio, Packages, Data Types, and Functions',
             'Projects, Organization, Git, GitHub',
             'Manipulating Data',
-            'Tidying Data and asking for help',
-            'Generating Dynamic Reports',
+            'More Tidying Data ',
+            'Generating Dynamic Reports and asking for help',
             'Writing Papers in Rmarkdown (w/ Latex)',
             'Spatial Data in R (Simple Features)',
             'Spatial Data in R (Rasters)',
@@ -223,36 +223,42 @@ content = c('R, RStudio, Packages, Data Types, and Functions',
 
 urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://happygitwithr.com/',
-          'https://rstudio.cloud/learn/primers/2') %>%
+          'https://rstudio.cloud/learn/primers/2',
+          'https://www.jstatsoft.org/article/view/v059i10') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
 pre_work <- c('Viz and Programming Primers',
               'Happy Git With R',
-              'Working with Data Primer') %>%
+              'Working with Data Primer',
+              'Tidy data') %>%
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
                 'Connecting Git, GitHub, & RStudio',
-                'Data manipulation in a script') %>%
+                'Data manipulation in a script',
+                'More complex data') %>%
   c(.,rep('',length(dates)-length(.)))
 
 video_urls <- c('https://youtu.be/RN33nzDrWgA',
                 'https://youtu.be/Y4sOTFV3FAM',
-                'https://youtu.be/Y_Xn8GkDOMw') %>%
+                'https://youtu.be/Y_Xn8GkDOMw',
+                'https://youtu.be/NJ_qSH1Buu0') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
-script_urls <- c(NA,NA,'https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace') %>%
+script_urls <- c(NA,NA,'https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace',
+                 'https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
-script <- c('','','Hayman') %>%
+script <- c('','','Hayman','Hayman again') %>%
   c(.,rep('',length(dates)-length(.)))
 
-data_urls <- c(NA,NA,'https://drive.google.com/file/d/1q9kdnOdnEvZiQS-_lK0yIVJWw_EprGiN/view?usp=sharing') %>%
+data_urls <- c(NA,NA,'https://drive.google.com/file/d/1q9kdnOdnEvZiQS-_lK0yIVJWw_EprGiN/view?usp=sharing',
+               'https://drive.google.com/drive/folders/1gETx9YB-6Mg0MWrJwutUN48iNkBXoC0s?usp=sharing') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
-data <-  c('','','NDVI') %>%
+data <-  c('','','NDVI','RS Indices') %>%
   c(.,rep('',length(dates)-length(.)))
 
 schedule <- tibble(`Week`=rep(1:16,each=2),
