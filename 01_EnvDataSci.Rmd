@@ -233,21 +233,24 @@ pre_work <- c('Viz and Programming Primers',
               'Happy Git With R',
               'Working with Data Primer',
               'Tidy data',
-              'RMarkdown Intro') %>%
+              'RMarkdown Intro',
+              'RMarkdown PDF') %>%
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
                 'Connecting Git, GitHub, & RStudio',
                 'Data manipulation in a script',
                 'More complex data',
-                'Converting to Rmd') %>%
+                'Converting to Rmd',
+                'Installing and Using Latex') %>%
   c(.,rep('',length(dates)-length(.)))
 
 video_urls <- c('https://youtu.be/RN33nzDrWgA',
                 'https://youtu.be/Y4sOTFV3FAM',
                 'https://youtu.be/Y_Xn8GkDOMw',
                 'https://youtu.be/NJ_qSH1Buu0',
-                'https://youtu.be/47h2aMx8sY8') %>%
+                'https://youtu.be/47h2aMx8sY8',
+                'https://youtu.be/cK1R-t5wiyU') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
