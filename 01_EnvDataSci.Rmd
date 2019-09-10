@@ -250,7 +250,7 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
                 'https://youtu.be/Y_Xn8GkDOMw',
                 'https://youtu.be/NJ_qSH1Buu0',
                 'https://youtu.be/47h2aMx8sY8',
-                'https://youtu.be/cK1R-t5wiyU') %>%
+                'https://youtu.be/5WgxUF7B0aY') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
