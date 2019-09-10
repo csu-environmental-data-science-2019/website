@@ -256,10 +256,10 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
 
 script_urls <- c(NA,NA,'https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace',
                  'https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace',
-                 NA,'2_ndsi_q.html') %>%
+                 '2_ndsi_q.html') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
-script <- c('','','Hayman','Hayman again','','Q vs Snow cover') %>%
+script <- c('','','Hayman','Hayman again','Q vs Snow cover') %>%
   c(.,rep('',length(dates)-length(.)))
 
 data_urls <- c(NA,NA,'https://drive.google.com/file/d/1q9kdnOdnEvZiQS-_lK0yIVJWw_EprGiN/view?usp=sharing',
