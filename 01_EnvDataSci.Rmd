@@ -225,7 +225,8 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://happygitwithr.com/',
           'https://rstudio.cloud/learn/primers/2',
           'https://www.jstatsoft.org/article/view/v059i10',
-          'https://rmarkdown.rstudio.com/lesson-1.html') %>%
+          'https://rmarkdown.rstudio.com/lesson-1.html',
+          'https://bookdown.org/yihui/rmarkdown/pdf-document.html') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
