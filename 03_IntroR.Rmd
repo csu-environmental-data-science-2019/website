@@ -1,0 +1,95 @@
+
+
+# Intro, how this site works
+
+In general, other people are both more advanced R users than myself, and they 
+also happen to care deeply about teaching. As a result, Hadley Wickham, 
+Garrett Grolemund, Jenny Bryan, Mara Averick, Mine Çetinkaya-Rundel,
+Robin Lovelace, and lots of others have written some truly incredible guides 
+to using R for just about everything. Given that these extensive guides exist,
+are generally free to access, and are very clear, and deeply helpful, I will not
+be recreating any of that work here. Rather, I will organize a series of links
+and explainers in these sections. So this is not really a website with class 
+notes, more just a place where helpful links and reminders will live. Under
+extreme duress (read: the exact tutorial I want doesn't exist), I will post my 
+own tutorials, this will likely happen later in the semester when we are
+linking together many analyses at once. 
+
+## Why R?
+
+Why in this data science class are we using R instead of other languages like
+Python or Julia? Well, the most honest and primary reason is that is the 
+language I have been working in for 8 years and I really like it. In addition,
+to my own preferences there are a few other reasons to use R:
+
+### The Community
+
+R has a robust and active community who are constantly building packages that
+extend the capacities of R, who are generally available for help if you ask in
+the right way, and who maintain a clear vision of the future of R. I like all
+these things, but the R community is amazing and different than most other 
+programming languages, because of it's emphasis on being kind and welcoming to 
+new coders and to be as [expansive and inclusive as possible](https://www.r-consortium.org/blog/2018/10/16/progress-on-driving-diversity-standards-in-the-r-community-an-update-on-rcdi-wg).  Because of programs like [RLadies Global](https://rladies.org/) R already has
+some of the [best representation of any coding language](https://reshamas.github.io/why-women-are-flourishing-in-r-community-but-lagging-in-python/). 
+These community aspects make learning R more approachable, fun, and open. 
+
+### The Stats
+
+Unlike Python, R was purpose built for statistical analyses. As a result, many 
+advanced statistics come baked into the software with a robust record of what
+the statistic means, who published the original idea, and links to papers that 
+justify the approach. This makes smoothly transitioning between different 
+statistical approaches relatively easy and well-supported. 
+
+### The Tidyverse
+
+Many of the folks I mention above have contributed to or built packages that are
+part of the so-called "tidyverse." This branch of the R world is one that 
+advocates for tidy data, tidy code, and tidy visualization. What this means in
+practice is that there are a series of packages that work really well together
+to go from raw data, to tidy data, to clear visualizations, to clear analyses. 
+Of course, the Tidyverse is not the only way to code in R and you should use it
+when/if it is useful, but I really like it and almost all of our examples in 
+class will include Tidyverse packages. 
+
+### Spatial R
+
+Doing spatial work in R is getting easier and easier and it is really nice to
+switch from statistical analyses to spatial analyses in the same environment.
+If your work is at all spatial, I encourage you to explore this particular branch
+of the R universe. 
+
+### Lots more
+
+This list could be infinite, but the above reasons are primary. 
+
+## Why RStudio?
+
+I think it is a great way to interact with R, making typical tasks like 
+git commits, file organization, and variable verification much easier. 
+
+## Installing R and RStudio
+
+Watch this video or Google it!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RN33nzDrWgA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Doing stuff in R
+
+Check out: 
+
+- [Hadley Wickham's R for Data Science, Basics](https://r4ds.had.co.nz/workflow-basics.html)
+
+- [RStudio Cloud Primers, Basics](https://rstudio.cloud/learn/primers/1)
+
+
+Or watch this video: 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SWxoJqTqo08" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Data in R
+
+Read:
+
+- [Tibbles](https://r4ds.had.co.nz/tibbles.html)
+
+- [Vectors](https://r4ds.had.co.nz/vectors.html)

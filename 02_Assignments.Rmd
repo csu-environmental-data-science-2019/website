@@ -1,0 +1,29 @@
+
+# Assignments
+
+## 1) Snow influences on summer vegetation
+
+First you will need to fork the Hayman Fire NDVI Trace repository on the 
+csu-environmental-data-science GitHub. Then you will need to answer the questions [here](https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace/blob/master/assignment_1.R) by using the data and code from this section. Once
+you have finished your assignment, you should save them, commit them to git, and
+then push them to GitHub on your fork. I'll then go into your fork and grade 
+your assignment there. 
+
+This assignment is due on Monday, 9/16/2019, so you have 
+**`r lubridate::mdy('9/16/2019') - Sys.Date()` days**
+to turn in your assignment. Negative numbers mean your assignment is late!
+
+
+## 2) Snow influence on watershed discharge (using RMarkdown)
+
+For this assignment I want you to reproduce the analyses, figures, and 
+style of this document [here](_book/2_ndsi_q.html). You don't have to 
+get the table of contents exactly the same, but I encourage you to try. Here
+you will once again be pushing your assignment to GitHub for me to grade. 
+
+This assignment is due on Friday, 9/20/2019, so you have
+**`r lubridate::mdy('9/20/2019') - Sys.Date()` days**
+to turn in your assignment. 
+
+
+
