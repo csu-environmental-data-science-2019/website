@@ -262,7 +262,8 @@ pre_videos <- c('Installing R and RStudio',
                 'Converting to Rmd',
                 'Installing and Using Latex',
                 'Intro to Spatial Analysis with Lagos',
-                'Spatiala and Data Analyses') %>%
+                'Spatiala and Data Analyses',
+                'Raster Data') %>%
   c(.,rep('',length(dates)-length(.)))
 
 video_urls <- c('https://youtu.be/RN33nzDrWgA',
@@ -272,7 +273,8 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
                 'https://youtu.be/47h2aMx8sY8',
                 'https://youtu.be/5WgxUF7B0aY',
                 'https://youtu.be/KxNW72CS1Ys',
-                'https://youtu.be/MWgratEfvS4') %>%
+                'https://youtu.be/MWgratEfvS4',
+                'https://youtu.be/UwOJNrfq960') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
