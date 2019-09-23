@@ -241,7 +241,8 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://rmarkdown.rstudio.com/lesson-1.html',
           'https://bookdown.org/yihui/rmarkdown/pdf-document.html',
           'https://geocompr.robinlovelace.net/spatial-class.html#vector-data',
-          'https://geocompr.robinlovelace.net/spatial-operations.html') %>%
+          'https://geocompr.robinlovelace.net/spatial-operations.html',
+          'http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/what-is-raster-data.htm') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
@@ -252,7 +253,8 @@ pre_work <- c('Viz and Programming Primers',
               'RMarkdown Intro',
               'RMarkdown PDF',
               'Geocomputation with R',
-              'Spatial Operations') %>%
+              'Spatial Operations',
+              'What is a Raster?') %>%
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
