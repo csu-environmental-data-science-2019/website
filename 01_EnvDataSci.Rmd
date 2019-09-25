@@ -242,7 +242,8 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://bookdown.org/yihui/rmarkdown/pdf-document.html',
           'https://geocompr.robinlovelace.net/spatial-class.html#vector-data',
           'https://geocompr.robinlovelace.net/spatial-operations.html',
-          'http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/what-is-raster-data.htm') %>%
+          'http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/what-is-raster-data.htm',
+          'https://github.com/tylermorganwall/rayshader') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
@@ -254,7 +255,8 @@ pre_work <- c('Viz and Programming Primers',
               'RMarkdown PDF',
               'Geocomputation with R',
               'Spatial Operations',
-              'What is a Raster?') %>%
+              'What is a Raster?',
+              'Rayshader') %>%
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
@@ -265,7 +267,8 @@ pre_videos <- c('Installing R and RStudio',
                 'Installing and Using Latex',
                 'Intro to Spatial Analysis with Lagos',
                 'Spatiala and Data Analyses',
-                'Raster Data') %>%
+                'Raster Data',
+                '3D analyses') %>%
   c(.,rep('',length(dates)-length(.)))
 
 video_urls <- c('https://youtu.be/RN33nzDrWgA',
@@ -276,7 +279,8 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
                 'https://youtu.be/5WgxUF7B0aY',
                 'https://youtu.be/KxNW72CS1Ys',
                 'https://youtu.be/MWgratEfvS4',
-                'https://youtu.be/UwOJNrfq960') %>%
+                'https://youtu.be/UwOJNrfq960',
+                'https://youtu.be/kp1UmOeHnS8') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
