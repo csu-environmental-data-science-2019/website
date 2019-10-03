@@ -287,8 +287,8 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
 script_urls <- c(NA,NA,'https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace',
                  'https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace',
                  '2_ndsi_q.html',
-                 'https://github.com/csu-environmental-data-science-2019/LAGOS_Class_Analysis/blob/master/1_beginning_spatial_analysis.Rmd',
-                 'https://github.com/csu-environmental-data-science-2019/LAGOS_Class_Analysis/blob/master/2_lake_wq_analysis.Rmd') %>%
+                 'https://github.com/csu-environmental-data-science-2019/LAGOS_Class_Analysis/blob/master/src/1_beginning_spatial_analysis.Rmd',
+                 'https://github.com/csu-environmental-data-science-2019/LAGOS_Class_Analysis/blob/master/src/2_lake_wq_analysis.Rmd') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 script <- c('','','Hayman','Hayman again','Q vs Snow cover','Lake analysis','Spatiodata analyses') %>%
