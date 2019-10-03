@@ -1,7 +1,13 @@
 
 # Assignments
 
-## 1) Snow influences on summer vegetation
+All assignments will be described more thoroughly in class, but
+they are generally where you fork a repository and answer the
+assignment sections of Rmd files in the repo. After
+assignments have been turned in, the answers will be posted here
+as html files or links to completed Rmds. 
+
+## Snow influences on summer vegetation
 
 First you will need to fork the Hayman Fire NDVI Trace repository on the 
 csu-environmental-data-science GitHub. Then you will need to answer the questions [here](https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace/blob/master/assignment_1.R) by using the data and code from this section. Once
@@ -13,11 +19,16 @@ This assignment is due on Monday, 9/16/2019, so you have
 **`r lubridate::mdy('9/16/2019') - Sys.Date()` days**
 to turn in your assignment. Negative numbers mean your assignment is late!
 
+### Answers
 
-## 2) Snow influence on watershed discharge (using RMarkdown)
+The answers to assignment 1 can be found [here](1_answers.html) with 
+additional solutions provided by various class members
+
+
+## Snow influence on watershed discharge (using RMarkdown)
 
 For this assignment I want you to reproduce the analyses, figures, and 
-style of this document [here](_book/2_ndsi_q.html). You don't have to 
+style of this document [here](2_ndsi_q.html). You don't have to 
 get the table of contents exactly the same, but I encourage you to try. Here
 you will once again be pushing your assignment to GitHub for me to grade. 
 
@@ -25,5 +36,21 @@ This assignment is due on Friday, 9/20/2019, so you have
 **`r lubridate::mdy('9/20/2019') - Sys.Date()` days**
 to turn in your assignment. 
 
+### Answers:
 
+The answer for how to exactly reproduce the html are [here](https://github.com/csu-environmental-data-science-2019/Hayman_Fire_NDVI_Trace/blob/master/src/2_ndsi_q.Rmd) 
+
+##  Lagos lake data
+
+For this assignment (and most future ones), you will simply be answering the 
+In-class sections of all Rmds in each forked repository. For this week those are [here](https://github.com/csu-environmental-data-science-2019/LAGOS_Class_Analysis). 
+
+### Answers
+
+The answers are [here](2_lake_wq_analysis_answers.html)
+
+
+##  Raster data
+
+Complete both in class sections of the 2 Rmds [here](https://github.com/csu-environmental-data-science-2019/mining_impacts_to_elevation)
 
