@@ -245,7 +245,8 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'http://desktop.arcgis.com/en/arcmap/10.3/manage-data/raster-and-images/what-is-raster-data.htm',
           'https://github.com/tylermorganwall/rayshader',
           NA,NA,
-          'https://rstudio.cloud/learn/primers/6') %>%
+          'https://rstudio.cloud/learn/primers/6',
+          'https://rstudio.cloud/learn/primers/5') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
@@ -260,7 +261,8 @@ pre_work <- c('Viz and Programming Primers',
               'What is a Raster?',
               'Rayshader',
               '','',
-              'Functions primer') %>%
+              'Functions primer',
+              'Iteration primer') %>%
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
