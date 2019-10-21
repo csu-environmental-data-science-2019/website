@@ -215,16 +215,16 @@ content = c('R, RStudio, Packages, Data Types, and Functions',
             'Review',
             'Writing functions',
             'Iterating, nesting, purrring',
-            'Real data analysis example 1 ',
-            'Real data analysis example 1',
+            'More on purrr',
+            'Project workday',
             'Dynamic data retrieval',
             'Web scraping',
-            'Intro to Shiny',
-            'Shiny as data exploration tool',
-            'Watershed analyses',
+            'Project workday',
+            'Real data analysis example',
+            'Real data analysis example',
+            'Project workday',
             'Advanced visualizations (videos and reactive graphs)',
-            'Real data analysis example 2',
-            'Real data analysis example 2',
+            'Watershed analysis',
             'Bigg(ish) data in R and dtplyr',
             'Parallel processing in R',
             'Fall Break',
@@ -246,7 +246,9 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://github.com/tylermorganwall/rayshader',
           NA,NA,
           'https://rstudio.cloud/learn/primers/6',
-          'https://rstudio.cloud/learn/primers/5') %>%
+          'https://rstudio.cloud/learn/primers/5',
+          'https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/',
+          NA,'http://uc-r.github.io/scraping') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
@@ -262,7 +264,8 @@ pre_work <- c('Viz and Programming Primers',
               'Rayshader',
               '','',
               'Functions primer',
-              'Iteration primer') %>%
+              'Iteration primer',
+              'Tidy Models','','Web Scraping') %>%
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
@@ -275,7 +278,9 @@ pre_videos <- c('Installing R and RStudio',
                 'Spatiala and Data Analyses',
                 'Raster Data',
                 '3D analyses',
-                '','','Functions') %>%
+                '','','Functions','',
+                'Iterating and Purrring','',
+                'Web scraping') %>%
   c(.,rep('',length(dates)-length(.)))
 
 video_urls <- c('https://youtu.be/RN33nzDrWgA',
@@ -289,7 +294,10 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
                 'https://youtu.be/UwOJNrfq960',
                 'https://youtu.be/kp1UmOeHnS8',
                 NA,NA,
-                'https://youtu.be/2JivMlYkEvU') %>%
+                'https://youtu.be/2JivMlYkEvU',
+                NA,
+                'https://youtu.be/rz3_FDVt9eg',
+                NA,'https://youtu.be/x3AIc4RgPbI') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
