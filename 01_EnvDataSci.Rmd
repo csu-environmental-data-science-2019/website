@@ -217,8 +217,8 @@ content = c('R, RStudio, Packages, Data Types, and Functions',
             'Iterating, nesting, purrring',
             'More on purrr',
             'Project workday',
-            'Dynamic data retrieval',
             'Web scraping',
+            'PDF scraping',
             'Project workday',
             'Real data analysis example',
             'Real data analysis example',
@@ -248,7 +248,8 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://rstudio.cloud/learn/primers/6',
           'https://rstudio.cloud/learn/primers/5',
           'https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/',
-          NA,'http://uc-r.github.io/scraping') %>%
+          NA,'http://uc-r.github.io/scraping',
+          'https://blog.datazar.com/extracting-pdf-text-with-r-and-creating-tidy-data-f399011549cc') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
@@ -265,7 +266,8 @@ pre_work <- c('Viz and Programming Primers',
               '','',
               'Functions primer',
               'Iteration primer',
-              'Tidy Models','','Web Scraping') %>%
+              'Tidy Models','','Web Scraping',
+              'PDF Scraping') %>%
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
@@ -280,7 +282,8 @@ pre_videos <- c('Installing R and RStudio',
                 '3D analyses',
                 '','','Functions','',
                 'Iterating and Purrring','',
-                'Web scraping') %>%
+                'Web scraping',
+                'PDF scraping and dynamic eval') %>%
   c(.,rep('',length(dates)-length(.)))
 
 video_urls <- c('https://youtu.be/RN33nzDrWgA',
@@ -297,7 +300,8 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
                 'https://youtu.be/2JivMlYkEvU',
                 NA,
                 'https://youtu.be/rz3_FDVt9eg',
-                NA,'https://youtu.be/x3AIc4RgPbI') %>%
+                NA,'https://youtu.be/x3AIc4RgPbI',
+                'https://youtu.be/6YsnvafVLwU') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
