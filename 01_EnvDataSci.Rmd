@@ -249,7 +249,8 @@ urls <- c('https://rstudio.cloud/learn/primers/1',
           'https://rstudio.cloud/learn/primers/5',
           'https://rviews.rstudio.com/2019/06/19/a-gentle-intro-to-tidymodels/',
           NA,'http://uc-r.github.io/scraping',
-          'https://blog.datazar.com/extracting-pdf-text-with-r-and-creating-tidy-data-f399011549cc') %>%
+          'https://blog.datazar.com/extracting-pdf-text-with-r-and-creating-tidy-data-f399011549cc',NA,NA,NA,NA,
+          'https://github.com/thomasp85/gganimate/wiki') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
@@ -267,7 +268,8 @@ pre_work <- c('Viz and Programming Primers',
               'Functions primer',
               'Iteration primer',
               'Tidy Models','','Web Scraping',
-              'PDF Scraping') %>%
+              'PDF Scraping','','','','',
+              'GGanimate') %>%
   c(.,rep('',length(dates)-length(.)))
 
 pre_videos <- c('Installing R and RStudio',
@@ -283,7 +285,9 @@ pre_videos <- c('Installing R and RStudio',
                 '','','Functions','',
                 'Iterating and Purrring','',
                 'Web scraping',
-                'PDF scraping and dynamic eval') %>%
+                'PDF scraping and dynamic eval',
+                '','','','',
+                'Making Videos 2 ways') %>%
   c(.,rep('',length(dates)-length(.)))
 
 video_urls <- c('https://youtu.be/RN33nzDrWgA',
@@ -301,7 +305,9 @@ video_urls <- c('https://youtu.be/RN33nzDrWgA',
                 NA,
                 'https://youtu.be/rz3_FDVt9eg',
                 NA,'https://youtu.be/x3AIc4RgPbI',
-                'https://youtu.be/6YsnvafVLwU') %>%
+                'https://youtu.be/6YsnvafVLwU',
+                NA,NA,NA,NA,
+                'https://youtu.be/ym2emNnyhck') %>%
   c(.,rep(NA,length(dates)-length(.)))
 
 
@@ -317,10 +323,13 @@ script <- c('','','Hayman','Hayman again','Q vs Snow cover','Lake analysis','Spa
 
 data_urls <- c(NA,NA,'https://drive.google.com/file/d/1q9kdnOdnEvZiQS-_lK0yIVJWw_EprGiN/view?usp=sharing',
                'https://drive.google.com/drive/folders/1gETx9YB-6Mg0MWrJwutUN48iNkBXoC0s?usp=sharing',
-               NA) %>%
+               rep(NA,18),
+               'https://www.dropbox.com/s/s7zt18elgoh8q2b/DailyP.RData?dl=0')%>%
   c(.,rep(NA,length(dates)-length(.)))
 
-data <-  c('','','NDVI','RS Indices','') %>%
+data <-  c('','','NDVI','RS Indices',
+           rep('',18),
+           'DailyP.RData') %>%
   c(.,rep('',length(dates)-length(.)))
 
 schedule <- tibble(`Week`=rep(1:16,each=2),
